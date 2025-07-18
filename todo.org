@@ -1,7 +1,8 @@
 #+NAME: TODO
 
-* TODO 
+* TODO Make repository
 :PROPERTIES:
-:CREATED:  [2025-07-18 Fri 08:59]
-:ID:       d09d068b-382e-4c27-ad01-4066f07bc033
+:CREATED:  [2025-07-18 Fri 15:07]
+:ID:       cfad8727-ee98-40c3-a8de-1dec219cc579
 :END:
+

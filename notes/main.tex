@@ -21,6 +21,184 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % BEGIN CONTENT
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abstract{The temperature hyperparameter ($T \geq 0$) of LLMs facilitates
+annealing of the conditional token probabilities and drives output
+determinism. For any LLM-driven ontology learning task (in this situation:
+ontology population), understanding the degree of variability introduced by
+LLMs performing ontology population over a spectrum of temperature values
+helps to pin-point value ranges that provide the best $mAP@D$ and the lowest
+variability range. \textit{Prior experimentation with three temperature values
+(low, medium and high) on two ontologies (Wines
+\cite{noy2001OntologyDevelopment101} and CASE
+\cite{casey2018EvolutionExpressingExchanging}) and with two LLMs (GPT-4o
+\cite{openai2024HelloGpt4o} and Llama3-8B \cite{grattafiori2024Llama3Herd})
+observed that varying the temperature value did not lead to large differences
+in performance variability or average performance. The larger LLM (GPT-4o)
+exhibited lower variability (statistically insignificant) while the smaller
+LLM (Llama3-8B) had much larger variability (statistically significant). The
+temperature study did not observe performance variability differences between
+the two ontologies either.}}
+
+\section{Previous Experimentation}
+\label{sec:prev-temp-variation}
+
+A preliminary set of experiments (for ISWC 2025) was carried out to gauge the
+degree of response variation produced by different temperature settings. The
+following sections outline the previous methodology, observations and
+limitations.
+
+\subsection{Method}
+\label{subsec:temp-variation-prev-method}
+
+The effect of temperature variability on performance consistency was measured
+over two ontologies: Wines \cite{noy2001OntologyDevelopment101} and CASE
+\cite{casey2018EvolutionExpressingExchanging}. The selection was based on the
+structural differences between the two ontologies. Experiments were performed
+on GPT-4o and Llama3-8B using ontology domain contextualization and 3-shot
+prompting.
+
+To analyze the effect of temperature, three temperature settings corresponding
+to 0.2 (low), 0.5/0.6 (default; the default value is close to the mid-point
+over the range of temperature values but varies between LLMs) and 0.8 (high)
+were selected. At each temperature value, experiments were repeated 10 times
+and the range and average $\text{mAP@D}$ values were calculated.
+
+\subsection{Observations}
+\label{subsec:temp-variation-prev-observations}
+
+\begin{figure}
+\begin{subfigure}{0.5\textwidth} \centering
+    \caption{Wines Ontology}
+    \label{fig:prev-wines-temp-variation}
+\includegraphics[scale=0.32]{assets/wines-ontology-temp-stat-variation-ontology.pdf}
+\end{subfigure} \hspace{0.2cm}
+\begin{subfigure}{0.5\textwidth} \centering
+    \caption{CASE Ontology}
+    \label{fig:prev-case-temp-variation}
+\includegraphics[scale=0.32]{assets/case-uco-owl-trafficking-temp-stat-variation-ontology.pdf}
+\end{subfigure}
+\caption{Temperature variation for (a) Wines and (b) CASE ontologies for
+GPT-4o and Llama3-8B with 3-shot, ontology domain contextualization. Central
+points are the average value over 10 runs. Lighter shaded regions are
+approximated densities over the range of values}
+\label{fig:prev-temp-variation}
+\end{figure}
+
+Figure \ref{fig:prev-temp-variation} highlights the differences in range,
+average values and approximate density over 10 repetitions for both ontologies
+(Wines in Figure \ref{fig:prev-wines-temp-variation}; CASE in Figure
+\ref{fig:prev-case-temp-variation}) and LLMs.
+
+GPT-4o was fairly consistent with very small ranges of $\text{mAP@D}$ observed
+over all temperature values and across both ontologies. The effect of response
+variability on $\text{mAP@D}$ was more pronounced in Llama3-8B. Contrary to
+expectation, lower temperature values did not result in less variability. The
+low temperature setting did not result in higher average $\text{mAP@D}$ than
+the default value for both LLMs and across both ontologies. The high
+temperature setting led to a decline in performance over the default
+value. This decrease was statistically significant for GPT-4o but the large
+range of variability rendered the same trend non-significant for Llama3-8B.
+
+The main takeaway from the experimentation was that the effect of temperature
+variation was not strongly pronounced. The hypothesis that higher temperature
+values contributed to greater variability and therefore exhibited more
+variable $\text{mAP@D}$ could not be validated. Performance appeared to worsen
+when using a high temperature value.
+
+\subsection{Limitations}
+\label{subsec:temp-variation-prev-limitations}
+
+The experimentation for temperature variation provides several observations
+but are not comprehensive enough to be considered strong statements about
+reliable trends.
+
+% Considered number of temperature values very small The theoretical
+temperature range ($T \geq 0$) is a large, continuous range of infinite values
+to be considered. While certain ranges certainly correspond to expected LLM
+behaviour, considering only singular values from these `zones' is insufficient
+to gain a robust understanding of observed behaviour. Considering more values
+from the `low', `medium' and `high' value ranges provides a better
+fine-grained breakdown of temperature variation.
+
+% Does not explore variability at T=0 and T=1 (or max.)  Performance observed
+at the theoretical limits ($T=0$; $T=\infty$) is not explored. The degree of
+variability observed when the model is defined as `completely deterministic'
+acts as a control for determinism but is lacking in the present
+experimentation. The same is true for the upper end of the value range (in
+practice, different models have an upper bound of their temperature, which can
+be construed as the equivalent of the theoretical value for greatest response
+variability).
+
+% No in-depth analysis An analysis of the number of concepts predicted at
+different temperature ranges or the consistency of prediction is
+missing. Macro-metrics provide a sense of the average performance but
+variability is more pronounced and understood at a per-instance
+scenario. Other methods of analyzing the responses that examine trends in
+predicted concepts would provide a realistic and interpretable method of
+assessing response variability with temperature.
+
+\section{New Experimentation}
+\label{sec:new-temp-variation}
+
+Based on the limitations outlined in Section
+\ref{subsec:temp-variation-prev-limitations}, a more comprehensive set of
+experiments and approaches is to be performed to analyze the variability that
+arises from temperature variation.
+
+% Insufficient number of repetitions for good reliability
+
+\subsection{Method}
+\label{subsec:new-temp-variation-method}
+
+% Experimental variables %% 2 ontologies %% 2 LLMs %% 10 repetitions
+
+In terms of the experimental setup, the same set of LLMs (GPT-4o and
+Llama3-8B) and ontologies (Wines and CASE) are to be used with ontology domain
+contextualization and using 3-shot prompting with 10 repetitions for each
+combination. The primary change is in considering more values in the different
+`zones'. In particular, we consider the LLM-equivalent temperature values $T
+\in \{0.0,\ 0.1,\ 0.2,\ 0.3,\ 0.4,\ 0.5,\ 0.6,\ 0.7,\ 0.8,\ 0.9,\ 1.0\}$ to
+analyze performance. The larger set of values incorporates edge conditions
+i.e. $0.0$ and $1.0$ as well as more values in the `low', `medium' and `high'
+ranges (low: $\{0.1, 0.2, 0.3\}$; medium: $\{0.4, 0.5, 0.6\}$; high: $\{0.7,
+0.8, 0.9\}$).
+
+In addition to more dense experimentation to understand the macroscopic
+behaviour differences (i.e. average $\text{mAP@D}$ and range of
+$\text{mAP@D}$), analyzing each response instance provides a more accurate
+understanding of the nature of variability.
+
+The following hypotheses apply a more nuanced strategy to investigate the
+exact nature of variability introduced by temperature variation.
+
+\begin{hypothesis}
+    \label{hyp:hyp-1} The number of directly-asserted concepts predicted by an
+LLM for ontology population increases with increase in temperature.
+\end{hypothesis}
+
+\begin{hypothesis}
+    \label{hyp:hyp-2} The distribution of directly-asserted concepts predicted
+by an LLM for ontology population becomes more `platykurtic' with increase in
+temperature.
+\end{hypothesis}
+
+\begin{hypothesis} The frequency with which an LLM predicts directly-asserted
+concepts for ontology population from the contextual examples provided
+increases with decrease in temperature.
+\end{hypothesis}
+
+\begin{hypothesis} The consistency of prediction for ontology population for
+an individual by an LLM decreases with increase in temperature.
+\end{hypothesis}
+
+\begin{hypothesis} The frequency of predicting out-of-context or non-existent
+concepts by an LLM for ontology population increases with increase in
+temperature.
+\end{hypothesis}
+
+The above hypotheses focus on the directly-asserted concepts for
+individuals. However, they are equally applicable for the rest of the
+hierarchy (or ranked lists) generated by the LLMs.
 
 \bibliographystyle{splncs04nat}
 \bibliography{bibliography}

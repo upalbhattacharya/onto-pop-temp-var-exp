@@ -1,0 +1,26 @@
+\documentclass[a4paper,colorinlistoftodos]{article}
+\input{../preamble} % For common headers, utilities and styling
+
+% Add other dependencies here or in preamble.tex (for cleaner visuals)
+
+\newcommand{\test}{\bf}
+
+\title{Enter Literature Note title here}
+\begin{document}
+
+\maketitle
+
+\begingroup
+    \hypersetup{linkcolor=black}
+    \tableofcontents
+    \listoftodos
+    \pagebreak
+\endgroup
+
+\linenumbers
+
+Literature Notes
+\bibliographystyle{splncs04nat}
+\bibliography{../bibliography}
+\end{document}
+

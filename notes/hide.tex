@@ -1,0 +1,51 @@
+\usepackage{environ}
+
+\newif\ifhide
+\hidetrue % toggle if necessary
+
+% Callouts
+\ifhide
+  \NewEnviron{hide}{}
+  \let\caution\hide
+  \let\endcaution\endhide
+  
+  \let\positive\hide
+  \let\endpositive\endhide
+  
+  \let\negative\hide
+  \let\endnegative\endhide
+  
+  \let\gap\hide
+  \let\endgap\endhide
+  
+  \let\upal\hide
+  \let\endupal\endhide
+  
+  \let\query\hide
+  \let\endquery\endhide
+  
+  \let\answer\hide
+  \let\endanswer\endhide
+  
+  \let\project\hide
+  \let\endproject\endhide
+\fi
+
+% Highlights
+\renewcommand\hlred[1]{#1}
+\renewcommand\hlgreen[1]{#1}
+\renewcommand\hlblue[1]{#1}
+\renewcommand\hlyellow[1]{#1}
+\renewcommand\hlorange[1]{#1}
+\renewcommand\hlgray[1]{#1}
+
+% Underline
+\renewcommand\ulred[1]{#1}
+\renewcommand\ulgreen[1]{#1}
+\renewcommand\ulblue[1]{#1}
+\renewcommand\ulyellow[1]{#1}
+\renewcommand\ulorange[1]{#1}
+\renewcommand\ulgray[1]{#1}
+
+% To hide todonotes, use: \usepackage[disable]{todonotes} in preamble.tex
+% To hide changes, use: \usepackage[final]{changes} in preamble.tex

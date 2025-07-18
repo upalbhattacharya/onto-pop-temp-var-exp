@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Package Loading
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%% Basic %%%%%%%%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[displaymath,mathlines,running]{lineno}
+
+%%%%%%%%%% Referencing %%%%%%%%%%
+\usepackage[numbers,sort&compress]{natbib}
+
+%%%%%%%%%% Images %%%%%%%%%%
+\usepackage{graphicx}
+\usepackage{subcaption}      % For subfigures
+
+%%%%%%%%%% Formatting %%%%%%%%%%
+\usepackage{longtable}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  colorlinks = true,
+  linkcolor = cat-latte-red}
+
+%%%%%%%%%% Math %%%%%%%%%%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+%%%%%%%%%% Presentation %%%%%%%%%%
+\usepackage[dvipsnames]{xcolor}
+\usepackage[normalem]{ulem}
+\usepackage{tcolorbox}
+\usepackage{soul}
+
+
+%%%%%%%%%% Misc %%%%%%%%%%
+\usepackage{todonotes}
+
+\newcounter{todocounter}
+\newcommand{\todonum}[2][]
+{\stepcounter{todocounter}\todo[#1]{\thetodocounter: #2}}
+
+\usepackage[commandnameprefix=always]{changes}
+\definechangesauthor[name='Upal Bhattacharya', color=cat-latte-purple]{UB}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Customization
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tcbuselibrary{theorems}
+
+%%%%%%%%%% Colors (Catppuccin Latte) %%%%%%%%%%
+\definecolor{cat-latte-green}{HTML}{40A02B}
+\definecolor{cat-latte-orange}{HTML}{FE640B}
+\definecolor{cat-latte-yellow}{HTML}{DF8E1D}
+\definecolor{cat-latte-red}{HTML}{D20F39}
+\definecolor{cat-latte-blue}{HTML}{04A5E5}
+\definecolor{cat-latte-gray}{HTML}{7c7f93}
+\definecolor{cat-latte-purple}{HTML}{8839EF}
+\definecolor{cat-latte-lavendar}{HTML}{7287fd}
+
+\colorlet{soulred}{cat-latte-red!50}
+\colorlet{soulgreen}{cat-latte-green!50}
+\colorlet{soulyellow}{cat-latte-yellow!50}
+\colorlet{soulorange}{cat-latte-orange!50}
+\colorlet{soulblue}{cat-latte-blue!50}
+\colorlet{soulgray}{cat-latte-gray!50}
+
+%%%%%%%%%% Callouts %%%%%%%%%%
+\newtcbtheorem[auto counter]{caution}{Caution}%
+{colback=cat-latte-orange!15,colframe=cat-latte-orange,fonttitle=\bfseries}{caution}
+\newtcbtheorem[auto counter]{positive}{Positive}%
+{colback=cat-latte-green!15,colframe=cat-latte-green,fonttitle=\bfseries}{positive}
+\newtcbtheorem[auto counter]{query}{Query}%
+{colback=cat-latte-yellow!15,colframe=cat-latte-yellow,fonttitle=\bfseries}{query}
+\newtcbtheorem[auto counter]{answer}{Answer}%
+{colback=cat-latte-blue!15,colframe=cat-latte-blue,fonttitle=\bfseries}{answer}
+\newtcbtheorem[auto counter]{negative}{Negative}%
+{colback=cat-latte-red!15,colframe=cat-latte-red,fonttitle=\bfseries}{negative}
+\newtcbtheorem[auto counter]{gap}{Gap}%
+{colback=cat-latte-gray!15,colframe=cat-latte-gray,fonttitle=\bfseries}{gap}
+\newtcbtheorem[no counter]{upal}{Upal}%
+{colback=cat-latte-purple!15,colframe=cat-latte-purple,fonttitle=\bfseries}{upal}
+\newtcbtheorem[no counter]{project}{Project}%
+{colback=cat-latte-lavendar!15,colframe=cat-latte-lavendar,fonttitle=\bfseries}{project}
+
+%%%%%%%%%% Highlights %%%%%%%%%%
+\newcommand{\hlred}[1]{\sethlcolor{soulred}\hl{#1}}
+\newcommand{\hlgreen}[1]{\sethlcolor{soulgreen}\hl{#1}}
+\newcommand{\hlyellow}[1]{\sethlcolor{soulyellow}\hl{#1}}
+\newcommand{\hlblue}[1]{\sethlcolor{soulblue}\hl{#1}}
+\newcommand{\hlorange}[1]{\sethlcolor{soulorange}\hl{#1}}
+\newcommand{\hlgray}[1]{\sethlcolor{soulgray}\hl{#1}}
+
+%%%%%%%%%% Underline %%%%%%%%%%
+\setul{}{1pt} % Width
+\newcommand{\ulred}[1]{\setulcolor{cat-latte-red}\ul{#1}}
+\newcommand{\ulgreen}[1]{\setulcolor{cat-latte-green}\ul{#1}}
+\newcommand{\ulyellow}[1]{\setulcolor{cat-latte-yellow}\ul{#1}}
+\newcommand{\ulblue}[1]{\setulcolor{cat-latte-blue}\ul{#1}}
+\newcommand{\ulorange}[1]{\setulcolor{cat-latte-orange}\ul{#1}}
+\newcommand{\ulgray}[1]{\setulcolor{cat-latte-gray}\ul{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Project-Specific
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Place project-specific imports here

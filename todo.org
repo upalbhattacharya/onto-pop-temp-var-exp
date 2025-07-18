@@ -1,0 +1,7 @@
+#+NAME: TODO
+
+* TODO 
+:PROPERTIES:
+:CREATED:  [2025-07-18 Fri 08:59]
+:ID:       d09d068b-382e-4c27-ad01-4066f07bc033
+:END:

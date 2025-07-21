@@ -1,0 +1,18 @@
+[project]
+name = "onto-pop-temp-var-exp"
+version = "1.0.0"
+description = "Comprehensive LLM Response Variability Experimentation over Temperature Variation"
+authors = [
+  {name="Upal Bhattacharya", email="u.bhattacharya@uu.nl"},
+]
+readme = "README.md"
+dynamic = ["dependencies", "optional-dependencies"]
+requires-python = ">=3.12"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+optional-dependencies.dev = { file = ["requirements-dev.txt"] }
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

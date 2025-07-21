@@ -1,0 +1,14 @@
+# Added on 2025-05-23
+accelerate==1.7.0
+bitsandbytes==0.45.5
+matplotlib==3.10.3
+ontospy==2.1.1
+openai==1.82.0
+polars==1.30.0
+pydantic==2.11.5
+python-dotenv==1.1.0
+scikit-learn==1.6.1
+torch==2.7.0
+tqdm==4.67.1
+transformers>=4.52.3
+yellowbrick==1.5

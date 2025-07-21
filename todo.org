@@ -7,11 +7,17 @@ CLOSED: [2025-07-21 Mon 11:16]
 :ID:       cfad8727-ee98-40c3-a8de-1dec219cc579
 :END:
 
-* IN PROGRESS Make basic script by porting over from previous repositories
+* INPROGRESS Make basic script by porting over from previous repositories
 :PROPERTIES:
 :CREATED:  [2025-07-21 Mon 11:16]
 :ID:       0c42a4a8-72e8-4b8f-b1e8-ec90fbaea813
 :END:
 :LOGBOOK:
 - State "IN PROGRESS" from "IN PROGRESS" [2025-07-21 Mon 11:16]
+:END:
+
+** INPROGRESS OpenAI
+:PROPERTIES:
+:CREATED:  [2025-07-21 Mon 11:18]
+:ID:       aa64b1d2-a842-4f1c-b177-c635c6c1517b
 :END:

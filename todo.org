@@ -1,8 +1,17 @@
 #+NAME: TODO
 
-* TODO Make repository
+* DONE Make repository
+CLOSED: [2025-07-21 Mon 11:16]
 :PROPERTIES:
 :CREATED:  [2025-07-18 Fri 15:07]
 :ID:       cfad8727-ee98-40c3-a8de-1dec219cc579
 :END:
 
+* IN PROGRESS Make basic script by porting over from previous repositories
+:PROPERTIES:
+:CREATED:  [2025-07-21 Mon 11:16]
+:ID:       0c42a4a8-72e8-4b8f-b1e8-ec90fbaea813
+:END:
+:LOGBOOK:
+- State "IN PROGRESS" from "IN PROGRESS" [2025-07-21 Mon 11:16]
+:END:

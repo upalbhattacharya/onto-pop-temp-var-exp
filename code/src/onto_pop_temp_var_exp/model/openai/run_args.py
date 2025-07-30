@@ -56,9 +56,13 @@ class RunArguments(BaseModel):
 
     def model_post_init(self, __context):
 
-        self.output_dir = "output" if self.output_dir is None else self.output_dir
-        self.input = re.sub(r"{DATA_DIR}", DATA_DIR)
-        self.examples_file = re.sub(r"{DATA_DIR}", DATA_DIR)
+        self.output_dir = (
+            re.sub(r"{RESULTS_DIR}", RESULTS_DIR, self.output_dir)
+            if self.output_dir is None
+            else self.output_dir
+        )
+        self.input_file = re.sub(r"{DATA_DIR}", DATA_DIR, self.input_file)
+        self.examples_file = re.sub(r"{DATA_DIR}", DATA_DIR, self.examples_file)
 
 
 if __name__ == "__main__":

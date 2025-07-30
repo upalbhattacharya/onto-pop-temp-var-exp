@@ -15,10 +15,6 @@ class RunArguments(BaseModel):
     output_dir: Optional[str] = Field(
         default=None, metadata={"help": "Directory to save run data"}
     )
-    # ontology_probe_type: Optional[str] = Field(
-    #     default=None,
-    #     metadata={"help": "Name of Ontology Awareness task to probe"},
-    # )
     prompt_strategy_type: Optional[str] = Field(
         default=None, metadata={"help": "Prompting strategy"}
     )
@@ -82,6 +78,5 @@ if __name__ == "__main__":
     print(run_args)
     print(run_args.dict())
     with open("test.json", "w") as f:
-        # args_save = run_args.to_dict()
         model_dump = run_args.model_dump()
         json.dump(model_dump, f, indent=4)

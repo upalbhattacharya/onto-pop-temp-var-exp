@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 
 
 class RunArguments(BaseModel):
-    input: Optional[str] = Field(
+    input_file: Optional[str] = Field(
         default=None, metadata={"help": "Dataset file to load"}
     )
     examples_file: Optional[str] = Field(
@@ -57,6 +57,8 @@ class RunArguments(BaseModel):
     def model_post_init(self, __context):
 
         self.output_dir = "output" if self.output_dir is None else self.output_dir
+        self.input = re.sub(r"{DATA_DIR}", DATA_DIR)
+        self.examples_file = re.sub(r"{DATA_DIR}", DATA_DIR)
 
 
 if __name__ == "__main__":

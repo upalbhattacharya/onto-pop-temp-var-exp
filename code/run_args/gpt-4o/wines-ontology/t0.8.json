@@ -1,5 +1,5 @@
 {
-    "input_file": "{DATA_DIR}/wines_ontology/most_common/2025-03-30/ontology_population_ranked_retrieval_dataset.json",
+    "input_file": "{DATA_DIR}/wines-ontology/most_common/2025-03-30/ontology_population_ranked_retrieval_dataset.json",
     "examples_file": "{DATA_DIR}/wines-ontology/most_common/2025-03-30/ontology_population_ranked_retrieval_examples.json",
     "output_dir": "{RESULTS_DIR}/gpt-4o/wines-ontology",
     "prompt_strategy_type": "3_shot",

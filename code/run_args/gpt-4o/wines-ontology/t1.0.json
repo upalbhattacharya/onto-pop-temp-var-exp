@@ -4,7 +4,7 @@
     "output_dir": "{RESULTS_DIR}/gpt-4o/wines-ontology",
     "prompt_strategy_type": "3_shot",
     "task_type": "ranked_retrieval",
-    "temperature": 0.8,
+    "temperature": 2.0,
     "llm_name": "gpt-4o-2024-08-06",
     "max_tokens": 1000,
     "system_message": "You are an ontology expert that responds with a ranked list of classes that a user input belongs to. Generate a list of the top {depth} most likely classes. Do not generate a list of less than {depth} classes.\nCreate the ranked list considering only the provided classes\n---\nClasses: {classes}\nUse the following examples to generate responses for user inputs:\n {examples}",

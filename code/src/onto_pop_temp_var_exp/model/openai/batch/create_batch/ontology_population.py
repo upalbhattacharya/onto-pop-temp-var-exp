@@ -5,7 +5,7 @@ import math
 import os
 
 import polars as pl
-from onto_pop_temp_var_exp.model.openai.datasets.ontology_population import (
+from onto_pop_temp_var_exp.model.openai.dataset.ontology_population import (
     OntologyPopulationRankedRetrievalDataset,
 )
 from onto_pop_temp_var_exp.model.openai.run_args import RunArguments
@@ -98,7 +98,7 @@ if __name__ == "__main__":
         json.dump(params_dump, f, indent=4)
 
     test_data = OntologyPopulationRankedRetrievalDataset(
-        in_file=run_args.input,
+        in_file=run_args.input_file,
         system_message=run_args.system_message,
         user_prompt_template=run_args.user_prompt_template,
         regex=run_args.regex,

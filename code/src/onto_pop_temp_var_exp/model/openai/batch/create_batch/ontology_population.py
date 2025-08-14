@@ -22,7 +22,6 @@ def create_ranked_retrieval_batch(
 
     for i in tqdm(range(num_samples)):
         print(i)
-        print(next(test_data))
         inst, messages, label = next(test_data)
         if run_args.llm_name == "o1-preview":
             task = {

@@ -5,10 +5,10 @@ import math
 import os
 
 import polars as pl
-from CASE_contradictory_mAP.model.open_ai.datasets.ontology_population import (
+from onto_pop_temp_var_exp.model.openai.datasets.ontology_population import (
     OntologyPopulationRankedRetrievalDataset,
 )
-from CASE_contradictory_mAP.model.open_ai.run_args import RunArguments
+from onto_pop_temp_var_exp.model.openai.run_args import RunArguments
 from tqdm import tqdm
 
 

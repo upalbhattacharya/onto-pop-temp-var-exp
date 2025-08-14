@@ -45,6 +45,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
     def generate_examples(self):
         example_print = ["---"]
         for i, row in enumerate(self.examples.rows()):
+            print(row)
             ind = (
                 re.sub(
                     rf"{self.regex[0]}",

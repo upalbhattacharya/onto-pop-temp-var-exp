@@ -84,6 +84,9 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                         + self.user_prompt_template.format(ind_formatted),
                     },
                 ]
+            else:
+                continue
+
         else:
             if self.llm_name == "o1-preview":
                 messages = [
@@ -111,6 +114,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                         "content": self.user_prompt_template.format(ind_formatted),
                     },
                 ]
+        print(ind, messages, label)
         return (
             ind,
             messages,

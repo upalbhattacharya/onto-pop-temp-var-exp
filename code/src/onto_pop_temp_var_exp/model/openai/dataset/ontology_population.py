@@ -85,7 +85,20 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                     },
                 ]
             else:
-                pass
+                messages = [
+                    {
+                        "role": "system",
+                        "content": self.system_message.format(
+                            **self.extra_args,
+                            classes=self.classes,
+                            examples=sel.generate_examples(),
+                        ),
+                    },
+                    {
+                        "role": "user",
+                        "content": self.user_prompt_template.format(ind_formatted),
+                    },
+                ]
         else:
             if self.llm_name == "o1-preview":
                 messages = [

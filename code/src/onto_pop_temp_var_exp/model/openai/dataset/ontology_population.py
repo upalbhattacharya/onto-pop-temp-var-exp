@@ -45,15 +45,16 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
     def generate_examples(self):
         example_print = ["---"]
         for i, row in enumerate(self.examples.rows()):
-            print(row)
             ind = (
-                re.sub(
-                    rf"{self.regex[0]}",
-                    self.regex[1] if not self.regex[1] else f"-{i}",
-                    row[0],
-                )
+                row[0]
                 if not self.regex
-                else row[0]
+                else (
+                    re.sub(
+                        rf"{self.regex[0]}",
+                        self.regex[1] if not self.regex[1] else f"-{i}",
+                        row[0],
+                    )
+                )
             )
             example_print.append(ind)
             example_print.extend([f"{j+1}. {val}" for j, val in enumerate(row[1])])

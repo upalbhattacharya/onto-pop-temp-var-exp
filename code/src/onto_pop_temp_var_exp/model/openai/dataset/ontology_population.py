@@ -91,7 +91,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                         "content": self.system_message.format(
                             **self.extra_args,
                             classes=self.classes,
-                            examples=sel.generate_examples(),
+                            examples=self.generate_examples(),
                         ),
                     },
                     {

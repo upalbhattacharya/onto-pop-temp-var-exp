@@ -85,8 +85,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                     },
                 ]
             else:
-                continue
-
+                pass
         else:
             if self.llm_name == "o1-preview":
                 messages = [

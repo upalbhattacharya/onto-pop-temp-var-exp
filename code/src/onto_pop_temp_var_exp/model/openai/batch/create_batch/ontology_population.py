@@ -15,7 +15,6 @@ from tqdm import tqdm
 def create_ranked_retrieval_batch(
     test_data, run_args, **kwargs
 ) -> (pl.DataFrame, dict):
-    print(test_data)
     tasks = []
     label_mapping = []
     num_samples = len(test_data)

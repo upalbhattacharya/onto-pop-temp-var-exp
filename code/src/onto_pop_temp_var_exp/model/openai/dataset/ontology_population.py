@@ -85,7 +85,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                     },
                 ]
             else:
-                continu
+                continue
 
         else:
             if self.llm_name == "o1-preview":

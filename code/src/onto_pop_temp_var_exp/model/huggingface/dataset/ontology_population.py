@@ -29,6 +29,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
         )
         self.system_message: str = system_message
         self.user_prompt_template: str = user_prompt_template
+        self.regex = regex
         self.extra_args = kwargs
         self.classes = list(
             set([cls for items in self.df["Ranked List"].to_list() for cls in items])

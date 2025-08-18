@@ -101,17 +101,20 @@ if __name__ == "__main__":
         raw = f.read()
         run_args = RunArguments.parse_raw(raw)
 
-    itcib = TermTypingRankedRetrievalDataset(
-        args.data,
+    itcib = OntologyPopulationRankedRetrievalDataset(
+        in_file=run_args.input,
         system_message=run_args.system_message,
         user_prompt_template=run_args.user_prompt_template,
+        regex=run_args.regex,
         examples_file=run_args.examples_file,
+        llm_name=run_args.llm_name,
         **run_args.kwargs,
     )
-    print(len(itcib))
     num_samples = len(itcib)
     itcib = iter(itcib)
     for i in range(num_samples):
-        print(i)
+        # print(i)
         inst, template, label = next(itcib)
-        print(template)
+        print(inst)
+        for r in template:
+            print("-" * 40)

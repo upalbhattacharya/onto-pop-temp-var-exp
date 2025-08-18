@@ -2,7 +2,7 @@
 
 import polars as pl
 from onto_pop_temp_var_exp.model.huggingface.dataset.ontology_population import (
-    TermTypingRankedRetrievalDataset,
+    OntologyPopulationRankedRetrievalDataset,
 )
 from onto_pop_temp_var_exp.model.huggingface.initialize_model import initialize_model
 from onto_pop_temp_var_exp.model.huggingface.run_args import RunArguments

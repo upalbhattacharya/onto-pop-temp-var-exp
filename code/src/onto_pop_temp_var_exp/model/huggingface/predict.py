@@ -104,7 +104,7 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(
         run_args.llm_name, token=os.environ.get("HF_TOKEN")
     )
-    test_data = TermTypingRankedRetrievalDataset(
+    test_data = OntologyPopulationRankedRetrievalDataset(
         run_args.input,
         system_message=run_args.system_message,
         user_prompt_template=run_args.user_prompt_template,

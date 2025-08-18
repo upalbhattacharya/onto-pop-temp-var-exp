@@ -93,25 +93,19 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-r",
-        "--run_args_file",
-        help="`run_args` file to load for checking of model",
-        type=str,
-        required=True,
+        "-r", "--run_args_file", type=str, required=True, help="`run_args` file to load"
     )
     args = parser.parse_args()
-    # Quick Test
-    with open(args.run_args_file, "r") as f:
+
+    with open(
+        args.run_args_file,
+        "r",
+    ) as f:
         raw = f.read()
+        print(raw)
         run_args = RunArguments.parse_raw(raw)
     print(run_args)
     print(run_args.dict())
     with open("test.json", "w") as f:
-        # args_save = run_args.to_dict()
-        model_dump = run_args.model_dump()
-        json.dump(model_dump, f, indent=4)
-    print(run_args.dict())
-    with open("test.json", "w") as f:
-        # args_save = run_args.to_dict()
         model_dump = run_args.model_dump()
         json.dump(model_dump, f, indent=4)

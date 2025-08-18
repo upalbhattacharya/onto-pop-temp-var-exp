@@ -19,7 +19,7 @@ LOG_CONF = {
             "formatter": "verbose",
         },
         "file_handler": {
-            "class": "llm_ontology_awareness.model.common.utilities.handlers.DirFileHandler",
+            "class": "onto_pop_temp_var_exp.model.common.utilities.handlers.DirFileHandler",
             "level": "DEBUG",
             "formatter": "verbose",
             "filename": "run.log",

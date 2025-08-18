@@ -20,7 +20,9 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
         user_prompt_template: str,
         regex: Optional[list[str]] = None,
         examples_file: Optional[str] = None,
-        llm_name: Optional[str] = "meta-llama/Meta-Llama-3-8B",
+        llm_name: Optional[
+            str
+        ] = "meta-llama/Meta-Llama-3-8B",  # Redundant, kept for parity with OpenAI Dataset
         **kwargs,
     ):
         self.df = pl.read_ndjson(in_file)

@@ -105,7 +105,7 @@ if __name__ == "__main__":
         run_args.llm_name, token=os.environ.get("HF_TOKEN")
     )
     test_data = OntologyPopulationRankedRetrievalDataset(
-        run_args.input,
+        run_args.input_file,
         system_message=run_args.system_message,
         user_prompt_template=run_args.user_prompt_template,
         task_type=run_args.task_type,

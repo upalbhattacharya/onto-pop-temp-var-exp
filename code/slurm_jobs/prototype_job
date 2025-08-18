@@ -21,7 +21,7 @@ HF_HOME=/scratch/bhatt006/.cache
 # Execution
 
 # Activate Virtual Environment
-source /scratch/bhatt006/miniconda3/bin/activate
+source /scratch/bhatt006/.envs/onto-pop-temp-var-exp/bin/activate
 
 # Change directory
 cd /scratch/bhatt006/Projects/onto_pop_temp_var_exp/code/src/onto_pop_temp_var_exp/model/huggingface || exit

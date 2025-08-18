@@ -2,6 +2,7 @@
 
 from typing import Optional
 
+from onto_pop_temp_var_exp.definitions import DATA_DIR, RESULTS_DIR, ROOT_DIR
 from pydantic import BaseModel, Field
 from transformers import TrainingArguments
 

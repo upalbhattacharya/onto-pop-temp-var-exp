@@ -74,18 +74,6 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
                 },
                 {"role": "user", "content": self.user_prompt_template.format(*ents)},
             ]
-        #         if self.examples is not None:
-        #             messages = f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-
-        # {self.system_message.format(**self.extra_args, classes=self.classes, examples=self.generate_examples())}<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-        # {self.user_prompt_template.format(*ents)}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
-        #         else:
-        #             messages = f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
-
-        # {self.system_message.format(**self.extra_args, classes=self.classes)}<|eot_id|><|start_header_id|>user<|end_header_id|>
-
-        # {self.user_prompt_template.format(*ents)}<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""
 
         return (
             *ents,
@@ -97,7 +85,7 @@ class OntologyPopulationRankedRetrievalDataset(Dataset):
 if __name__ == "__main__":
     import argparse
 
-    from llm_ontology_awareness.model.hugging_face.run_args import RunArguments
+    from onto_pop_temp_var_exp.model.huggingface.run_args import RunArguments
 
     parser = argparse.ArgumentParser()
     parser.add_argument(

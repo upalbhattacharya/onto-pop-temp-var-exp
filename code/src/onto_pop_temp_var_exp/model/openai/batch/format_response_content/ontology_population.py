@@ -7,7 +7,7 @@ import os
 import re
 
 import polars as pl
-from CASE_contradictory_mAP.model.open_ai.run_args import RunArguments
+from onto_pop_temp_var_exp.model.openai.run_args import RunArguments
 
 
 def gpt_4o_format_response(value: str):

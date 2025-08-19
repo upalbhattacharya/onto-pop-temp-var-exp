@@ -28,7 +28,7 @@ BNB_CUDA_VERSION=125
 source /scratch/bhatt006/.venvs/onto-pop-temp-var-exp/bin/activate
 
 # Change directory
-cd /scratch/bhatt006/Projects/onto_pop_temp_var_exp/code/src/onto_pop_temp_var_exp/model/huggingface || exit
+cd /scratch/bhatt006/Projects/onto-pop-temp-var-exp/code/src/onto_pop_temp_var_exp/model/huggingface || exit
 
 # Execute
 for i in $(seq 1 10); do

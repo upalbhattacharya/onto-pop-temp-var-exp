@@ -9,7 +9,7 @@ from typing import Any
 import polars as pl
 
 
-def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
+def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> dict[float]:
     """Compute and plot the average number of directly-asserted
     concepts predicted for each query"""
     # TODO: Improve docstring
@@ -23,6 +23,9 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
                 run_pred.row(i, named=True)["Prediction"][0] for run_pred in run_preds
             ]
             responses[temp][run_preds[0].row(i, named=True)["Individual"]] = assertion
+        sum_assertion = [len(set(v)) for v in responses[temp].values()]
+        scores[temp] = sum(sum_assertion) * 1.0 / len(sum_assertion)
+    return scores
 
 
 if __name__ == "__main__":

@@ -82,7 +82,6 @@ if __name__ == "__main__":
 
     # Test setting of HF_HOME
     print(os.environ["HF_HOME"])
-    print(os.environ["TRITON_CACHE_DIR"])
 
     # Get filename to name output directory
     dir_name = os.path.splitext(os.path.basename(args.args_file))[0]

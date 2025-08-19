@@ -37,3 +37,4 @@ if __name__ == "__main__":
         required=True,
         help="Runs directories for predictions",
     )
+    args = parser.parse_args()

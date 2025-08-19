@@ -52,4 +52,4 @@ if __name__ == "__main__":
     for r_dir in args.runs_dirs:
         for run in os.listdir(r_dir):
             
-            with open(os.path.join(r_dir, run, "predictions.json"), 
+            # with open(os.path.join(r_dir, run, "predictions.json"), 

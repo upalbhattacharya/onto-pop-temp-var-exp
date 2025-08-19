@@ -15,6 +15,7 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
     # TODO: Improve docstring
 
     responses = defaultdict(lambda: defaultdict(list))
+    scores = dict()
     for temp, run_preds in preds.items():
         # Get first concept simultaneously from all run predictions
         for i in range(run_preds[0].select(pl.len()).item()):
@@ -22,7 +23,6 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
                 run_pred.row(i, named=True)["Prediction"][0] for run_pred in run_preds
             ]
             responses[temp][run_preds[0].row(i, named=True)["Individual"]] = assertion
-    pprint.pp(responses)
 
 
 if __name__ == "__main__":

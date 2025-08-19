@@ -57,4 +57,4 @@ if __name__ == "__main__":
         for run in os.listdir(r_dir):
             df = pl.read_ndjson(os.path.join(r_dir, run, "predictions.json"))
             predictions[temp].append(df)
-    hypothesis_1(predictions)
+    print(hypothesis_1(predictions))

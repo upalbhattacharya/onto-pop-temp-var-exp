@@ -17,4 +17,4 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
             assertion = [
                 run_pred.row(i, named=True)["Prediction"][0] for run_pred in run_preds
             ]
-            responses[temp]
+            responses[temp][run_preds[0].row(i, named=True)["Individual"]] = assertion

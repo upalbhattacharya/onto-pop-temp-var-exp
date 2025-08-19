@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#SBATCH --job-name=onto-temp-var-exp_case_t0.6
+#SBATCH --nodes=1
+#SBATCH --partition=gpua16
+#SBATCH --gres=gpu:1
+#SBATCH --time=24:00:00
+#SBATCH --output=/scratch/bhatt006/run_logs/%x_%j.out
+#SBATCH --error=/scratch/bhatt006/run_logs/%x_%j.err
+
+# Load Modules
+
+module load cuda/12.5
+
+# Define Visible GPUs
+CUDA_VISIBLE_DEVICES=0,1,2,3
+
+# Set HF_HOME directory
+HF_HOME=/scratch/bhatt006/.cache
+TRITON_CACHE_DIR=/scratch/bhatt006/.triton/cache
+
+# Set BNB_CUDA_VERSION
+BNB_CUDA_VERSION=125
+
+# Execution
+
+# Activate Virtual Environment
+source /scratch/bhatt006/.envs/onto-pop-temp-var-exp/bin/activate
+
+# Change directory
+cd /scratch/bhatt006/Projects/onto_pop_temp_var_exp/code/src/onto_pop_temp_var_exp/model/huggingface || exit
+
+# Execute
+for i in $(seq 1 10); do
+    python3 predict.py \
+            -f /scratch/bhatt006/Projects/run_args/llama3-8B/case-uco-owl-trafficking/t0.6.json
+done

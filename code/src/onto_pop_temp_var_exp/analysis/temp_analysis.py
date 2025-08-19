@@ -48,7 +48,7 @@ if __name__ == "__main__":
         )
     args = parser.parse_args()
 
-    predictions = 
+    # predictions = 
     for r_dir in args.runs_dirs:
         for run in os.listdir(r_dir):
             

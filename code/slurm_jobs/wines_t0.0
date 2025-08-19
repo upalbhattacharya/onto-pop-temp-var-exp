@@ -31,7 +31,7 @@ source /scratch/bhatt006/.envs/onto-pop-temp-var-exp/bin/activate
 cd /scratch/bhatt006/Projects/onto_pop_temp_var_exp/code/src/onto_pop_temp_var_exp/model/huggingface || exit
 
 # Execute
-for i in (seq 1 10); do
+for i in $(seq 1 10); do
     python3 predict.py \
             -f /scratch/bhatt006/Projects/run_args/llama3-8B/wines-ontology/t0.0.json
 done

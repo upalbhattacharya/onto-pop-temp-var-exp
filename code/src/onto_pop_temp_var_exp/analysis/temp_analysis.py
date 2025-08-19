@@ -38,3 +38,4 @@ if __name__ == "__main__":
         help="Runs directories for predictions",
     )
     args = parser.parse_args()
+    print(args)

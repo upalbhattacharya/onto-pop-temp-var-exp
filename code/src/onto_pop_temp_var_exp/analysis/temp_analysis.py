@@ -3,7 +3,7 @@
 """Temperature Variation Analysis"""
 
 import pprint
-from collections import defaultdict
+from collections import Counter, defaultdict
 from typing import Any
 
 import polars as pl

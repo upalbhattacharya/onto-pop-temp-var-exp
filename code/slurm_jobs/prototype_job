@@ -18,6 +18,9 @@ CUDA_VISIBLE_DEVICES=0,1,2,3
 # Set HF_HOME directory
 HF_HOME=/scratch/bhatt006/.cache
 
+# Set BNB_CUDA_VERSION
+BNB_CUDA_VERSION=125
+
 # Execution
 
 # Activate Virtual Environment

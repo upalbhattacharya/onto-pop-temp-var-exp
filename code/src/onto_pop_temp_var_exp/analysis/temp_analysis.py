@@ -48,9 +48,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # predictions =
+    predictions = defaultdict(list)
     for r_dir in args.runs_dirs:
         for run in os.listdir(r_dir):
-            pass
-
-            # with open(os.path.join(r_dir, run, "predictions.json"),
+            with open(os.path.join(r_dir, run, "predictions.json"),

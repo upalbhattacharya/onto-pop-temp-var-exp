@@ -44,8 +44,7 @@ if __name__ == "__main__":
         nargs="+",
         type=float,
         required=True,
-        help="Temperatures for run directories",
-        )
+        help="Temperatures for run directories",)
     args = parser.parse_args()
 
     # predictions = 

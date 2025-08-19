@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=ontollm_1
+#SBATCH --job-name=onto-temp-var-exp
 #SBATCH --nodes=1
 #SBATCH --partition=gpua16
 #SBATCH --gres=gpu:1

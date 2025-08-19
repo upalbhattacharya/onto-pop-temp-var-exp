@@ -39,5 +39,6 @@ def initialize_model(run_args: RunArguments):
         trust_remote_code=run_args.trust_remote_code,
         torch_dtype=torch_dtype,
         token=os.environ.get("HF_TOKEN"),
+        cache_dir="/scratch/bhatt06/.cache",
     )
     return model

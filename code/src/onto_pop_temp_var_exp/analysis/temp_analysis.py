@@ -27,6 +27,7 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
 if __name__ == "__main__":
 
     import argparse
+    import os
 
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -38,4 +39,3 @@ if __name__ == "__main__":
         help="Runs directories for predictions",
     )
     args = parser.parse_args()
-    print(args.runs_dir)

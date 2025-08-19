@@ -44,11 +44,13 @@ if __name__ == "__main__":
         nargs="+",
         type=float,
         required=True,
-        help="Temperatures for run directories",)
+        help="Temperatures for run directories",
+    )
     args = parser.parse_args()
 
-    # predictions = 
+    # predictions =
     for r_dir in args.runs_dirs:
         for run in os.listdir(r_dir):
-            
-            # with open(os.path.join(r_dir, run, "predictions.json"), 
+            pass
+
+            # with open(os.path.join(r_dir, run, "predictions.json"),

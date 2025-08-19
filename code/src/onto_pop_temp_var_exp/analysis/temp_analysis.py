@@ -2,8 +2,10 @@
 
 """Temperature Variation Analysis"""
 
+from typing import Any
+
 import polars as pl
 
 
-def hypothesis_1(preds: dict[pl.DataFrame]):
+def hypothesis_1(preds: dict[pl.DataFrame]) -> Any:
     pass

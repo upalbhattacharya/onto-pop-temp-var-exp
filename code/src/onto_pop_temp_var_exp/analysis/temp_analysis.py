@@ -2,5 +2,6 @@
 
 """Temperature Variation Analysis"""
 
-def hypothesis-1():
+
+def hypothesis_1():
     pass

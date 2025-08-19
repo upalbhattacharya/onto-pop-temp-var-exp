@@ -35,5 +35,5 @@ if __name__ == "__main__":
         nargs="+",
         type=str,
         required=True,
-        help="Runs Directory for predictions",
+        help="Runs directories for predictions",
     )

@@ -21,3 +21,6 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
                 run_pred.row(i, named=True)["Prediction"][0] for run_pred in run_preds
             ]
             responses[temp][run_preds[0].row(i, named=True)["Individual"]] = assertion
+    print(responses)
+
+if __name__ == "__main__":

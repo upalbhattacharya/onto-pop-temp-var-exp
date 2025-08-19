@@ -13,6 +13,8 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
     # TODO: Improve docstring
     for temp, run_preds in preds.items():
         # Get first concept simultaneously from all run predictions
-        
-        
-    
+        for i in range(run_preds[0].select(pl.len()).item()):
+            assertion = [
+                run_pred.row(i, named=True)["Prediction"][0] for run_pred in run_preds
+            ]
+            responses[temp]

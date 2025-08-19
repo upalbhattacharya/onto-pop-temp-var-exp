@@ -38,7 +38,18 @@ if __name__ == "__main__":
         required=True,
         help="Runs directories for predictions",
     )
+    parser.add_argument(
+        "-t",
+        "--temperatures",
+        nargs="+",
+        type=float,
+        required=True,
+        help="Temperatures for run directories",
+        )
     args = parser.parse_args()
+
+    predictions = 
     for r_dir in args.runs_dirs:
         for run in os.listdir(r_dir):
-            print(run)
+            
+            with open(os.path.join(r_dir, run, "predictions.json"), 

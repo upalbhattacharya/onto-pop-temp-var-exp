@@ -23,4 +23,7 @@ def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> None:
             responses[temp][run_preds[0].row(i, named=True)["Individual"]] = assertion
     print(responses)
 
+
 if __name__ == "__main__":
+
+    import argparse

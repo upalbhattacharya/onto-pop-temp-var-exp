@@ -7,5 +7,5 @@ from typing import Any
 import polars as pl
 
 
-def hypothesis_1(preds: dict[pl.DataFrame]) -> Any:
-    pass
+def hypothesis_1(preds: dict[list[pl.DataFrame]]) -> Any:
+    

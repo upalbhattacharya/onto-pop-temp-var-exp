@@ -49,6 +49,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     predictions = defaultdict(list)
-    for r_dir in args.runs_dirs:
+    for temp, r_dir in zip(args.temperatures, args.runs_dirs):
         for run in os.listdir(r_dir):
             with open(os.path.join(r_dir, run, "predictions.json"),

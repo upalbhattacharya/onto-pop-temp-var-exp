@@ -51,4 +51,5 @@ if __name__ == "__main__":
     predictions = defaultdict(list)
     for temp, r_dir in zip(args.temperatures, args.runs_dirs):
         for run in os.listdir(r_dir):
-            with open(os.path.join(r_dir, run, "predictions.json"),
+            df = pl.read_ndjson(os.path.join(r_dir, run, "predictions.json"))
+            predictions[temp].append(df)

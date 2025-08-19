@@ -32,10 +32,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "-r",
-        "--runs_dir",
+        "--runs_dirs",
         nargs="+",
         type=str,
         required=True,
         help="Runs directories for predictions",
     )
     args = parser.parse_args()
+    for r_dir in args.runs_dirs:
+        for run in os.listdir(r_dir):
+            print(run)

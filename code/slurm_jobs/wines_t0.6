@@ -2,9 +2,9 @@
 
 #SBATCH --job-name=onto-temp-var-exp_wines_t0.6
 #SBATCH --nodes=1
-#SBATCH --exclusive
 #SBATCH --partition=gpua16
 #SBATCH --gres=gpu:1
+#SBATCH --ntasks-per-gpu=1
 #SBATCH --time=24:00:00
 #SBATCH --output=/scratch/bhatt006/run_logs/%x_%j.out
 #SBATCH --error=/scratch/bhatt006/run_logs/%x_%j.err

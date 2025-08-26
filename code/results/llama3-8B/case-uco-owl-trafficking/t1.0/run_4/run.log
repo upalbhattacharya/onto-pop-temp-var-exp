@@ -1,0 +1,7 @@
+2025-08-25 22:13:55,543 [WARNING] bitsandbytes.cextension cextension:get_cuda_bnb_library_path 27:: WARNING: BNB_CUDA_VERSION=125 environment variable detected; loading libbitsandbytes_cuda125.so.
+This can be used to load a bitsandbytes version that is different from the PyTorch CUDA version.
+If this was unintended set the BNB_CUDA_VERSION variable to an empty string: export BNB_CUDA_VERSION=
+If you use the manual override make sure the right libcudart.so is in your LD_LIBRARY_PATH
+For example by adding the following to your .bashrc: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:<path_to_cuda_dir/lib64
+
+2025-08-25 22:13:55,543 [DEBUG] bitsandbytes.cextension cextension:get_native_library 71:: Loading bitsandbytes native library from: /scratch/bhatt006/.venvs/onto-pop-temp-var-exp/lib/python3.13/site-packages/bitsandbytes/libbitsandbytes_cuda125.so

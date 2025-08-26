@@ -1,0 +1,158 @@
+{"Custom ID":"task-0","Response":"1. Region"}
+{"Custom ID":"task-1","Response":"1. Region\n2. Anjou\n3. Wine\n4. PotableLiquid"}
+{"Custom ID":"task-2","Response":"1. Region"}
+{"Custom ID":"task-3","Response":"1. Region"}
+{"Custom ID":"task-4","Response":"1. Meritage"}
+{"Custom ID":"task-5","Response":"1. Wine\n2. Chardonnay\n3. WhiteWine"}
+{"Custom ID":"task-6","Response":"1. Region\n2. Region\n3. Bordeaux\n4. Winery"}
+{"Custom ID":"task-7","Response":"1. Winery\n2. Meritage\n3. Winery\n4. RedWine"}
+{"Custom ID":"task-8","Response":"1. Region\n2. Bordeaux"}
+{"Custom ID":"task-9","Response":"1. Region\n2. CotesDOr"}
+{"Custom ID":"task-10","Response":"1. WineGrape\n2. Grape\n3. CabernetFranc\n4. Merlot"}
+{"Custom ID":"task-11","Response":"1. WineGrape\n2. Grape\n3. CabernetSauvignon"}
+{"Custom ID":"task-12","Response":"1. Region"}
+{"Custom ID":"task-13","Response":"1. Region"}
+{"Custom ID":"task-14","Response":"1. Region"}
+{"Custom ID":"task-15","Response":"1. WineGrape\n2. Grape\n3. Chardonnay\n4. GrapeVine"}
+{"Custom ID":"task-16","Response":"1. Wine\n2. Meritage\n3. Bordeaux\n4. RedWine"}
+{"Custom ID":"task-17","Response":"1. Bordeaux\n2. Region\n3. StEmilion\n4. Pauillac"}
+{"Custom ID":"task-18","Response":"1. Winery\n2. Bordeaux\n3. Meritage\n4. Region"}
+{"Custom ID":"task-19","Response":"1. Sauternes\n2. DessertWine\n3. Wine\n4. PotableLiquid"}
+{"Custom ID":"task-20","Response":"1. Winery\n2. Region\n3. Meursault\n4. Bordeaux"}
+{"Custom ID":"task-21","Response":"1. Winery\n2. Region\n3. Wine\n4. Meursault"}
+{"Custom ID":"task-22","Response":"1. Bordeaux\n2. Wine\n3. RedWine\n4. Meritage"}
+{"Custom ID":"task-23","Response":"1. Pauillac\n2. Bordeaux\n3. Wine\n4. RedWine"}
+{"Custom ID":"task-24","Response":"1. Bordeaux\n2. Meritage\n3. Margaux\n4. RedWine"}
+{"Custom ID":"task-25","Response":"1. Winery\n2. Wine\n3. Bordeaux\n4. Region"}
+{"Custom ID":"task-26","Response":"1. Wine\n2. Beaujolais\n3. FrenchWine\n4. RedWine"}
+{"Custom ID":"task-27","Response":"1. Beaujolais\n2. Wine\n3. RedWine\n4. FrenchWine"}
+{"Custom ID":"task-28","Response":"1. WineGrape\n2. Grape\n3. CheninBlanc"}
+{"Custom ID":"task-29","Response":"1. Chianti\n2. ItalianWine\n3. Wine\n4. RedWine"}
+{"Custom ID":"task-30","Response":"1. Region\n2. ItalianWine\n3. Chianti"}
+{"Custom ID":"task-31","Response":"1. Region\n2. Bordeaux\n3. Pauillac\n4. CotesDOr"}
+{"Custom ID":"task-32","Response":"1. Sancerre\n2. Region\n3. WhiteWine\n4. Wine"}
+{"Custom ID":"task-33","Response":"1. CotesDOr\n2. Bordeaux\n3. Region\n4. Wine"}
+{"Custom ID":"task-34","Response":"1. CotesDOr\n2. Region"}
+{"Custom ID":"task-35","Response":"1. Winery"}
+{"Custom ID":"task-36","Response":"1. Semillon\n2. Wine\n3. Grape\n4. WineGrape"}
+{"Custom ID":"task-37","Response":"1. Meritage\n2. Bordeaux\n3. Winery\n4. Wine"}
+{"Custom ID":"task-38","Response":"1. WhiteRiesling\n2. DryRiesling\n3. Wine\n4. PotableLiquid"}
+{"Custom ID":"task-39","Response":"1. Wine\n2. SauvignonBlanc\n3. WhiteWine"}
+{"Custom ID":"task-40","Response":"1. Wine\n2. WineGrape\n3. SauvignonBlanc"}
+{"Custom ID":"task-41","Response":"1. WhiteBurgundy\n2. Wine"}
+{"Custom ID":"task-42","Response":"1. WhiteBurgundy\n2. Wine"}
+{"Custom ID":"task-43","Response":"1. CotesDOr\n2. Region"}
+{"Custom ID":"task-44","Response":"1. Winery\n2. Wine\n3. Region"}
+{"Custom ID":"task-45","Response":"1. Zinfandel\n2. Wine\n3. RedWine\n4. RedTableWine"}
+{"Custom ID":"task-46","Response":"1. Anjou\n2. Region"}
+{"Custom ID":"task-47","Response":"1. WineDescriptor\n2. WineSugar"}
+{"Custom ID":"task-48","Response":"1. WineSugar\n2. Wine\n3. SweetRiesling"}
+{"Custom ID":"task-49","Response":"1. Region"}
+{"Custom ID":"task-50","Response":"1. Wine"}
+{"Custom ID":"task-51","Response":"1. Wine\n2. RedWine\n3. Zinfandel\n4. Meritage"}
+{"Custom ID":"task-52","Response":"Here are the top 4 classes that Forman belongs to:\n\n1. Wine\n2. Grape\n3. WineGrape\n4. Grape Variety"}
+{"Custom ID":"task-53","Response":"1. Wine\n2. Meritage\n3. Merlot\n4. Grape"}
+{"Custom ID":"task-54","Response":"1. Chardonnay\n2. Wine"}
+{"Custom ID":"task-55","Response":"1. Wine\n2. WhiteWine\n3. CheninBlanc\n4. PotableLiquid"}
+{"Custom ID":"task-56","Response":"1. Region\n2. Bordeaux"}
+{"Custom ID":"task-57","Response":"1. Wine\n2. RedWine\n3. DryRiesling\n4. RedTableWine"}
+{"Custom ID":"task-58","Response":"1. Grape\n2. WineGrape"}
+{"Custom ID":"task-59","Response":"1. Person"}
+{"Custom ID":"task-60","Response":"1. Merlot\n2. Meritage\n3. MerlotGrape\n4. Wine"}
+{"Custom ID":"task-61","Response":"1. Winery"}
+{"Custom ID":"task-62","Response":"1. Region"}
+{"Custom ID":"task-63","Response":"1. Winery\n2. Winery"}
+{"Custom ID":"task-64","Response":"1. Wine\n2. Semillon\n3. WineGrape\n4. Meritage"}
+{"Custom ID":"task-65","Response":"1. Wine"}
+{"Custom ID":"task-66","Response":"1. Wine\n2. Meritage\n3. VintageYear"}
+{"Custom ID":"task-67","Response":"1. Wine\n2. Grape\n3. RedWine"}
+{"Custom ID":"task-68","Response":"1. PinotNoir\n2. Wine\n3. WineGrape\n4. Grape"}
+{"Custom ID":"task-69","Response":"1. WineSugar"}
+{"Custom ID":"task-70","Response":"1. Region\n2. Anjou"}
+{"Custom ID":"task-71","Response":"1. Wine"}
+{"Custom ID":"task-72","Response":"1. Wine\n2. Merlot\n3. WineGrape\n4. Grape"}
+{"Custom ID":"task-73","Response":"1. WineGrape\n2. Grape"}
+{"Custom ID":"task-74","Response":"1. Region\n2. Bordeaux\n3. Pauillac\n4. Margaux"}
+{"Custom ID":"task-75","Response":"1. Meritage\n2. Winery\n3. Wine\n4. Bordeaux"}
+{"Custom ID":"task-76","Response":"1. RedWine\n2. Wine\n3. Meritage\n4. CabernetSauvignon"}
+{"Custom ID":"task-77","Response":"1. RedWine\n2. Wine\n3. WineDescriptor\n4. PotableLiquid"}
+{"Custom ID":"task-78","Response":"1. PetiteSyrah\n2. WineGrape\n3. Grape\n4. Wine"}
+{"Custom ID":"task-79","Response":"1. Wine\n2. RedWine\n3. Zinfandel\n4. Meritage"}
+{"Custom ID":"task-80","Response":"1. WineGrape"}
+{"Custom ID":"task-81","Response":"1. WineBody"}
+{"Custom ID":"task-82","Response":"1. Region\n2. Bordeaux"}
+{"Custom ID":"task-83","Response":"1. Region"}
+{"Custom ID":"task-84","Response":"1. Region\n2. CotesDOr\n3. Bordeaux\n4. FrenchWine"}
+{"Custom ID":"task-85","Response":"1. WineDescriptor\n2. Wine\n3. PotableLiquid\n4. Semillon"}
+{"Custom ID":"task-86","Response":"1. Winery\n2. Wine\n3. Region"}
+{"Custom ID":"task-87","Response":"1. Chardonnay\n2. Wine\n3. WhiteWine\n4. WineDescriptor"}
+{"Custom ID":"task-88","Response":"1. Wine\n2. RedWine\n3. PinotNoir\n4. Meritage"}
+{"Custom ID":"task-89","Response":"1. Winery\n2. Wine\n3. WineGrape"}
+{"Custom ID":"task-90","Response":"1. Chardonnay\n2. Wine"}
+{"Custom ID":"task-91","Response":"1. Wine\n2. PinotNoir\n3. RedWine\n4. WineGrape"}
+{"Custom ID":"task-92","Response":"1. Riesling\n2. WhiteWine\n3. Wine\n4. Grape"}
+{"Custom ID":"task-93","Response":"1. Region\n2. Wine"}
+{"Custom ID":"task-94","Response":"1. Region"}
+{"Custom ID":"task-95","Response":"1. Region"}
+{"Custom ID":"task-96","Response":"1. WineSugar\n2. WineDescriptor\n3. SweetRiesling"}
+{"Custom ID":"task-97","Response":"1. Winery\n2. Winery"}
+{"Custom ID":"task-98","Response":"1. Wine\n2. RedWine\n3. Meritage\n4. WineGrape"}
+{"Custom ID":"task-99","Response":"1. Region\n2. Bordeaux\n3. Pauillac"}
+{"Custom ID":"task-100","Response":"1. Winery"}
+{"Custom ID":"task-101","Response":"1. Wine\n2. Chardonnay\n3. WineGrape\n4. PotableLiquid"}
+{"Custom ID":"task-102","Response":"1. WineGrape\n2. Grape\n3. PetiteSyrah"}
+{"Custom ID":"task-103","Response":"1. WineGrape\n2. Grape"}
+{"Custom ID":"task-104","Response":"1. WineGrape\n2. Grape\n3. PinotBlanc"}
+{"Custom ID":"task-105","Response":"1. WineGrape\n2. Grape"}
+{"Custom ID":"task-106","Response":"1. Region"}
+{"Custom ID":"task-107","Response":"1. WhiteBurgundy\n2. Wine\n3. Bordeaux\n4. PotableLiquid"}
+{"Custom ID":"task-108","Response":"1. WhiteBurgundy\n2. Wine\n3. Burgundy"}
+{"Custom ID":"task-109","Response":"1. WineColor\n2. RedWine"}
+{"Custom ID":"task-110","Response":"1. WineGrape\n2. Grape\n3. Riesling\n4. Grape Variety"}
+{"Custom ID":"task-111","Response":"1. RedWine\n2. Wine"}
+{"Custom ID":"task-112","Response":"1. Wine\n2. WhiteWine\n3. Anjou\n4. WineColor"}
+{"Custom ID":"task-113","Response":"1. Region\n2. Sancerre\n3. WineRegion"}
+{"Custom ID":"task-114","Response":"1. WineGrape\n2. Grape"}
+{"Custom ID":"task-115","Response":"1. Region"}
+{"Custom ID":"task-116","Response":"1. Winery\n2. Wine\n3. Region"}
+{"Custom ID":"task-117","Response":"1. Wine\n2. RedWine\n3. CabernetSauvignon\n4. WineGrape"}
+{"Custom ID":"task-118","Response":"1. Region\n2. WineRegion"}
+{"Custom ID":"task-119","Response":"1. Wine\n2. RedWine\n3. Meritage\n4. PotableLiquid"}
+{"Custom ID":"task-120","Response":"1. Zinfandel\n2. RedWine\n3. Wine\n4. PotableLiquid"}
+{"Custom ID":"task-121","Response":"1. Wine\n2. Zinfandel\n3. RedWine\n4. VintageYear"}
+{"Custom ID":"task-122","Response":"1. Region\n2. Bordeaux\n3. Sauternes\n4. Wine"}
+{"Custom ID":"task-123","Response":"1. WineGrape\n2. Grape\n3. WineGrapeVine\n4. Semillon"}
+{"Custom ID":"task-124","Response":"1. Winery\n2. Region\n3. Wine"}
+{"Custom ID":"task-125","Response":"1. DessertWine\n2. Riesling\n3. Wine\n4. SweetRiesling"}
+{"Custom ID":"task-126","Response":"1. Winery\n2. Region"}
+{"Custom ID":"task-127","Response":"1. DessertWine\n2. Wine\n3. Riesling\n4. WineGrape"}
+{"Custom ID":"task-128","Response":"Here are the top 4 classes that SeanThackrey belongs to:\n\n1. Winery\n2. Wine\n3. Meritage\n4. Winery"}
+{"Custom ID":"task-129","Response":"1. PetiteSyrah\n2. Wine\n3. Syrah\n4. Grape"}
+{"Custom ID":"task-130","Response":"1. WineGrape\n2. Grape"}
+{"Custom ID":"task-131","Response":"1. IceWine\n2. Wine\n3. DessertWine\n4. Riesling"}
+{"Custom ID":"task-132","Response":"1. Wine\n2. Grape\n3. SauvignonBlanc"}
+{"Custom ID":"task-133","Response":"1. WineGrape\n2. Grape\n3. Semillon\n4. Wine"}
+{"Custom ID":"task-134","Response":"1. Wine\n2. Bordeaux\n3. WineRegion\n4. FrenchWine"}
+{"Custom ID":"task-135","Response":"1. Muscadet\n2. WhiteWine\n3. Wine\n4. PotableLiquid"}
+{"Custom ID":"task-136","Response":"1. Region"}
+{"Custom ID":"task-137","Response":"1. Region"}
+{"Custom ID":"task-138","Response":"1. Region\n2. Bordeaux\n3. Pauillac\n4. Winery"}
+{"Custom ID":"task-139","Response":"1. Bordeaux\n2. Region\n3. Winery"}
+{"Custom ID":"task-140","Response":"1. Wine\n2. WhiteWine\n3. RedTableWine"}
+{"Custom ID":"task-141","Response":"1. Winery"}
+{"Custom ID":"task-142","Response":"1. Wine\n2. WhiteWine\n3. SauvignonBlanc\n4. WineGrape"}
+{"Custom ID":"task-143","Response":"1. WineFlavor"}
+{"Custom ID":"task-144","Response":"1. WineSugar\n2. DessertWine\n3. SweetRiesling"}
+{"Custom ID":"task-145","Response":"1. Meritage"}
+{"Custom ID":"task-146","Response":"1. Port\n2. Wine"}
+{"Custom ID":"task-147","Response":"1. None\n2. Region"}
+{"Custom ID":"task-148","Response":"1. Region"}
+{"Custom ID":"task-149","Response":"1. Region"}
+{"Custom ID":"task-150","Response":"1. Winery"}
+{"Custom ID":"task-151","Response":"1. Wine\n2. CheninBlanc\n3. Grape"}
+{"Custom ID":"task-152","Response":"1. WineColor\n2. WhiteWine\n3. Wine\n4. WineDescriptor"}
+{"Custom ID":"task-153","Response":"1. Wine\n2. WhiteWine\n3. Winery"}
+{"Custom ID":"task-154","Response":"1. CabernetFranc\n2. Wine\n3. WineGrape\n4. Cabernet"}
+{"Custom ID":"task-155","Response":"1. Wine\n2. Meritage\n3. WhiteWine\n4. WineGrape"}
+{"Custom ID":"task-156","Response":"1. VintageYear"}
+{"Custom ID":"task-157","Response":"1. WineGrape\n2. Grape\n3. Zinfandel"}

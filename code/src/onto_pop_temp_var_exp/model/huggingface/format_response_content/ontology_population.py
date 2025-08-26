@@ -6,7 +6,6 @@ import json
 import os
 
 import polars as pl
-from onto_pop_temp_var_exp.model.huggingface.run_args import RunArguments
 
 
 def llama3_format_response(value: str):
@@ -40,13 +39,6 @@ parser.add_argument(
     required=True,
 )
 parser.add_argument(
-    "-r",
-    "--run_args",
-    help="Run arguments",
-    type=str,
-    required=True,
-)
-parser.add_argument(
     "-l",
     "--label_mapping",
     type=str,
@@ -55,9 +47,6 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
-with open(args.run_args, "r") as f:
-    args_raw = f.read()
-    run_args = RunArguments.model_validate_json(args_raw)
 
 response_file_dir = os.path.dirname(args.response_file)
 

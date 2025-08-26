@@ -1,0 +1,128 @@
+{"Custom ID":"task-0","Response":"1. DigitalAccount\n2. Account\n3. ObservableObject\n4. Item\n5. Observable\n6. UcoObject\n7. UcoThing"}
+{"Custom ID":"task-1","Response":"1. DigitalAccount\n2. Account\n3. ObservableObject\n4. Item\n5. Observable\n6. UcoObject\n7. UcoThing\n8. AccountFacet"}
+{"Custom ID":"task-2","Response":"1. AccountAuthenticationFacet\n2. Facet\n3. DigitalAccountFacet\n4. DigitalAccount\n5. Account\n6. ObservableObject\n7. UcoInherentCharacterizationThing\n8. UcoThing"}
+{"Custom ID":"task-3","Response":"1. AccountAuthenticationFacet\n2. Facet\n3. DigitalAccountFacet\n4. DigitalAccount\n5. Account\n6. ObservableObject\n7. Item\n8. UcoThing"}
+{"Custom ID":"task-4","Response":"1. AccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. Account\n5. Item\n6. ObservableObject\n7. UcoInherentCharacterizationThing\n8. UcoThing"}
+{"Custom ID":"task-5","Response":"1. AccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. AccountAuthenticationFacet\n5. EmailAccountFacet\n6. PhoneAccountFacet\n7. DigitalAccount\n8. Account"}
+{"Custom ID":"task-6","Response":"1. AccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. IdentityFacet\n7. AccountAuthenticationFacet\n8. EmailAccountFacet"}
+{"Custom ID":"task-7","Response":"1. AccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. Account\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. IdentityFacet\n8. ObservableObject"}
+{"Custom ID":"task-8","Response":"1. AccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. Account\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. IdentityFacet\n8. DigitalAccount"}
+{"Custom ID":"task-9","Response":"1. AccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. Account\n5. DigitalAccount\n6. ObservableObject\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-10","Response":"1. Account\n2. DigitalAccount\n3. AccountFacet\n4. DigitalAccountFacet\n5. ObservableObject\n6. Item\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-11","Response":"1. Account\n2. DigitalAccount\n3. AccountFacet\n4. DigitalAccountFacet\n5. ObservableObject\n6. Item\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-12","Response":"1. Account\n2. DigitalAccount\n3. AccountFacet\n4. DigitalAccountFacet\n5. ObservableObject\n6. Item\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-13","Response":"1. DigitalAccount\n2. Account\n3. ConfigurationEntry\n4. Item\n5. ObservableObject\n6. UcoObject\n7. UcoThing\n8. AccountFacet"}
+{"Custom ID":"task-14","Response":"1. AndroidDeviceFacet\n2. DeviceFacet\n3. Facet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. MobileDeviceFacet\n7. MobileDevice\n8. Device"}
+{"Custom ID":"task-15","Response":"1. ApplicationFacet\n2. Facet\n3. AccountFacet\n4. DigitalAccountFacet\n5. ApplicationAccountFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-16","Response":"1. Application\n2. ApplicationFacet\n3. ConfiguredTool\n4. Tool\n5. Software\n6. Device\n7. FileSystemObject"}
+{"Custom ID":"task-17","Response":"1. ApplicationFacet\n2. Facet\n3. DigitalAccountFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. Application\n7. ObservableObject\n8. Item"}
+{"Custom ID":"task-18","Response":"1. MobileAccount\n2. Account\n3. MobileAccountFacet\n4. DigitalAccount\n5. AccountFacet\n6. DigitalAccountFacet\n7. PhoneAccount\n8. AccountAuthenticationFacet"}
+{"Custom ID":"task-19","Response":"1. DigitalAccount\n2. Account\n3. ObservableObject\n4. Item\n5. Observable\n6. UcoObject\n7. UcoThing"}
+{"Custom ID":"task-20","Response":"1. BluetoothAddressFacet\n2. Facet\n3. DigitalAccountFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. DeviceFacet\n7. SIMCardFacet\n8. MobileAccountFacet"}
+{"Custom ID":"task-21","Response":"1. BootLoaderFacet\n2. Facet\n3. DeviceFacet\n4. FileSystemFacet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. ObservableObject\n8. Item"}
+{"Custom ID":"task-22","Response":"1. Bundle\n2. Item\n3. UcoObject\n4. UcoThing\n5. ConfigurationEntry\n6. Application\n7. File\n8. FileSystemObject"}
+{"Custom ID":"task-23","Response":"1. Image\n2. FileFacet\n3. File\n4. ContentDataFacet\n5. ObservableObject\n6. Observable\n7. UcoObject\n8. Item"}
+{"Custom ID":"task-24","Response":"1. Relationship\n2. PathRelationFacet\n3. TableRelationFacet\n4. FileFacet\n5. DeviceFacet\n6. MobileDeviceFacet\n7. FileSystemFacet\n8. InvestigativeAction"}
+{"Custom ID":"task-25","Response":"1. ConfigurationEntry\n2. Configuration\n3. ConfiguredTool\n4. Item\n5. ObservableObject\n6. UcoObject\n7. UcoThing\n8. ApplicationFacet"}
+{"Custom ID":"task-26","Response":"1. ConfigurationEntry\n2. Configuration\n3. Tool\n4. Application\n5. Item\n6. ObservableObject\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-27","Response":"1. ConfigurationEntry\n2. Configuration\n3. Item\n4. ObservableObject\n5. UcoObject\n6. UcoThing\n7. Observable\n8. AccountFacet"}
+{"Custom ID":"task-28","Response":"1. ContentDataFacet\n2. Facet\n3. DigitalAccountFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. FileFacet\n7. DataRangeFacet"}
+{"Custom ID":"task-29","Response":"1. ContentDataFacet\n2. Facet\n3. DigitalAccountFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. FileFacet\n7. DataRangeFacet\n8. FileSystemFacet"}
+{"Custom ID":"task-30","Response":"1. ContentDataFacet\n2. Facet\n3. DigitalAccountFacet\n4. FileFacet\n5. FileSystemFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing\n8. Item"}
+{"Custom ID":"task-31","Response":"1. ContentDataFacet\n2. Facet\n3. DigitalAccountFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. FileFacet\n7. DataRangeFacet\n8. Item"}
+{"Custom ID":"task-32","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing\n5. FileFacet\n6. FileSystemFacet\n7. ObservableObject\n8. Item"}
+{"Custom ID":"task-33","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing"}
+{"Custom ID":"task-34","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing\n5. Item\n6. ObservableObject\n7. Observable\n8. FileFacet"}
+{"Custom ID":"task-35","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing"}
+{"Custom ID":"task-36","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing"}
+{"Custom ID":"task-37","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing\n5. FileFacet\n6. FileSystemFacet\n7. ConfigurationEntry\n8. ObservableObject"}
+{"Custom ID":"task-38","Response":"1. DataRangeFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing\n5. FileFacet\n6. FileSystemFacet\n7. ObservableObject\n8. Item"}
+{"Custom ID":"task-39","Response":"1. DeviceFacet\n2. Facet\n3. DeviceFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. ObservableObject\n7. Item\n8. UcoObject"}
+{"Custom ID":"task-40","Response":"1. DigitalAccountFacet\n2. Facet\n3. DigitalAccount\n4. Account\n5. ObservableObject\n6. Item\n7. UcoInherentCharacterizationThing\n8. UcoThing"}
+{"Custom ID":"task-41","Response":"1. DiskPartitionFacet\n2. Facet\n3. FileSystemFacet\n4. DeviceFacet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. FileSystemObject\n8. Item"}
+{"Custom ID":"task-42","Response":"1. FileSystem\n2. File\n3. FileSystemObject\n4. Item\n5. ObservableObject\n6. UcoObject\n7. UcoThing\n8. ConfigurationEntry"}
+{"Custom ID":"task-43","Response":"1. FileFacet\n2. File\n3. ContentDataFacet\n4. FileSystemFacet\n5. FileSystemObject\n6. Item\n7. ObservableObject\n8. UcoObject"}
+{"Custom ID":"task-44","Response":"1. EmailAccount\n2. Account\n3. DigitalAccount\n4. ObservableObject\n5. Item\n6. UcoObject\n7. UcoThing\n8. AccountFacet"}
+{"Custom ID":"task-45","Response":"1. EmailAccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. AccountFacet\n5. EmailAccount\n6. DigitalAccount\n7. Account\n8. ObservableObject"}
+{"Custom ID":"task-46","Response":"1. EmailAccount\n2. EmailAddress\n3. EmailAddressFacet\n4. DigitalAccount\n5. Account\n6. ObservableObject\n7. Item\n8. UcoObject"}
+{"Custom ID":"task-47","Response":"1. EmailAccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. AccountFacet\n5. EmailAddressFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-48","Response":"1. ExtInodeFacet\n2. Facet\n3. FileSystemFacet\n4. FileFacet\n5. DataRangeFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing\n8. Item"}
+{"Custom ID":"task-49","Response":"1. ExtInodeFacet\n2. Facet\n3. FileSystemFacet\n4. FileFacet\n5. DataRangeFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing\n8. ObservableObject"}
+{"Custom ID":"task-50","Response":"1. ExtInodeFacet\n2. Facet\n3. FileSystemFacet\n4. FileFacet\n5. DataRangeFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-51","Response":"1. EmailAccount\n2. Account\n3. DigitalAccount\n4. ObservableObject\n5. Item\n6. Observable\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-52","Response":"1. FileFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. SimpleNameFacet\n6. Item\n7. UcoInherentCharacterizationThing\n8. UcoThing"}
+{"Custom ID":"task-53","Response":"1. FileFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. SimpleNameFacet\n6. ConfigurationEntry\n7. Item"}
+{"Custom ID":"task-54","Response":"1. FileFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. SimpleNameFacet\n6. ConfigurationEntry\n7. UcoInherentCharacterizationThing"}
+{"Custom ID":"task-55","Response":"1. FileFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. SimpleNameFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-56","Response":"1. FileFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. SimpleNameFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-57","Response":"1. FileFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. SimpleNameFacet\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-58","Response":"1. FileSystemFacet\n2. Facet\n3. FileFacet\n4. DataRangeFacet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-59","Response":"1. FileSystem\n2. FileSystemFacet\n3. FileFacet\n4. DiskPartition\n5. FileSystemObject\n6. Item\n7. ObservableObject\n8. UcoObject"}
+{"Custom ID":"task-60","Response":"1. FileSystemFacet\n2. Relationship\n3. FileFacet\n4. PathRelationFacet\n5. FileSystem\n6. Item\n7. ObservableObject\n8. UcoObject"}
+{"Custom ID":"task-61","Response":"1. ConfiguredTool\n2. Tool\n3. Device\n4. FileSystem\n5. DeviceFacet\n6. FileFacet\n7. FileSystemFacet\n8. ApplicationFacet"}
+{"Custom ID":"task-62","Response":"1. Image\n2. FileFacet\n3. ContentDataFacet\n4. DigitalAccount\n5. Account\n6. ObservableObject\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-63","Response":"1. Hash\n2. ContentDataFacet\n3. FileFacet\n4. DigitalAccountFacet\n5. Facet\n6. UcoInherentCharacterizationThing\n7. UcoThing\n8. Item"}
+{"Custom ID":"task-64","Response":"1. Hash\n2. ContentDataFacet\n3. Facet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. Item\n7. ObservableObject\n8. Observable"}
+{"Custom ID":"task-65","Response":"1. Hash\n2. ContentDataFacet\n3. DigitalAccountFacet\n4. Facet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-66","Response":"1. Hash\n2. ContentDataFacet\n3. DigitalAccountFacet\n4. Facet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-67","Response":"1. Hash\n2. ContentDataFacet\n3. Facet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. Item\n7. ObservableObject"}
+{"Custom ID":"task-68","Response":"1. Hash\n2. ContentDataFacet\n3. DigitalAccountFacet\n4. Facet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-69","Response":"1. Investigation\n2. Relationship\n3. ProvenanceRecord\n4. ObservableRelationship\n5. Item\n6. UcoObject\n7. UcoThing\n8. Compilation"}
+{"Custom ID":"task-70","Response":"1. InvestigativeAction\n2. InvestigativeAction\n3. Action\n4. Tool\n5. ConfiguredTool\n6. Relationship\n7. ObservableRelationship\n8. Item"}
+{"Custom ID":"task-71","Response":"1. ConfiguredTool\n2. Tool\n3. Device\n4. FileSystem\n5. File\n6. FileSystemObject\n7. DeviceFacet"}
+{"Custom ID":"task-72","Response":"1. LatLongCoordinatesFacet\n2. Facet\n3. FileFacet\n4. DataRangeFacet\n5. FileSystemFacet\n6. DeviceFacet\n7. MobileDeviceFacet\n8. UcoInherentCharacterizationThing"}
+{"Custom ID":"task-73","Response":"1. LatLongCoordinatesFacet\n2. Facet\n3. FileFacet\n4. DataRangeFacet\n5. FileSystemFacet\n6. ObservableObject\n7. UcoObject\n8. Item"}
+{"Custom ID":"task-74","Response":"1. MobileDevice\n2. Device\n3. MobileDeviceFacet\n4. DeviceFacet\n5. FileSystem\n6. FileSystemObject\n7. File\n8. DiskPartition"}
+{"Custom ID":"task-75","Response":"1. ConfiguredTool\n2. Tool\n3. DeviceFacet\n4. FileSystemFacet\n5. FileFacet\n6. Device\n7. MobileDeviceFacet\n8. MobileDevice"}
+{"Custom ID":"task-76","Response":"1. Message\n2. ContentDataFacet\n3. MessageFacet\n4. EmailAccount\n5. EmailAccountFacet\n6. Email\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-77","Response":"1. Relationship\n2. MessageFacet\n3. Facet\n4. URLHistoryEntry\n5. Item\n6. ObservableObject\n7. UcoObject\n8. Observable"}
+{"Custom ID":"task-78","Response":"1. MessageFacet\n2. Facet\n3. ContentDataFacet\n4. UcoInherentCharacterizationThing\n5. UcoThing\n6. Item\n7. ObservableObject\n8. Observable"}
+{"Custom ID":"task-79","Response":"1. MessageFacet\n2. Facet\n3. ContentDataFacet\n4. EmailAccountFacet\n5. DigitalAccountFacet\n6. Item\n7. UcoInherentCharacterizationThing\n8. UcoThing"}
+{"Custom ID":"task-80","Response":"1. SMSMessage\n2. Message\n3. ContentDataFacet\n4. FileFacet\n5. FileSystemFacet\n6. FileSystem\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-81","Response":"1. MobileAccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. SIMCardFacet\n5. DeviceFacet\n6. AccountFacet\n7. MobileAccount\n8. UcoInherentCharacterizationThing"}
+{"Custom ID":"task-82","Response":"1. MobileDeviceFacet\n2. Facet\n3. DeviceFacet\n4. FileSystemFacet\n5. MobileAccountFacet\n6. PhoneAccountFacet\n7. SIMCardFacet\n8. Device"}
+{"Custom ID":"task-83","Response":"1. MobileAccount\n2. Account\n3. DigitalAccount\n4. ObservableObject\n5. Item\n6. UcoObject\n7. UcoThing\n8. AccountFacet"}
+{"Custom ID":"task-84","Response":"1. OperatingSystemFacet\n2. Facet\n3. FileSystemFacet\n4. DeviceFacet\n5. FileFacet\n6. ObservableObject\n7. UcoInherentCharacterizationThing\n8. UcoThing"}
+{"Custom ID":"task-85","Response":"1. Organization\n2. Identity\n3. IdentityAbstraction\n4. UcoObject\n5. UcoThing\n6. Item\n7. Observable\n8. Account"}
+{"Custom ID":"task-86","Response":"1. Organization\n2. Account\n3. DigitalAccount\n4. ObservableObject\n5. UcoObject\n6. UcoThing\n7. Item"}
+{"Custom ID":"task-87","Response":"1. Organization\n2. UcoThing\n3. Item\n4. ObservableObject\n5. UcoObject\n6. Identity\n7. IdentityAbstraction"}
+{"Custom ID":"task-88","Response":"1. Organization\n2. Bundle\n3. Item\n4. ObservableObject\n5. UcoObject\n6. UcoThing\n7. Tool"}
+{"Custom ID":"task-89","Response":"1. Application\n2. ApplicationFacet\n3. ObservableObject\n4. Item\n5. Observable\n6. UcoObject\n7. UcoThing\n8. Software"}
+{"Custom ID":"task-90","Response":"1. Application\n2. ApplicationFacet\n3. ConfiguredTool\n4. Tool\n5. Software\n6. Device\n7. DeviceFacet\n8. FileSystem"}
+{"Custom ID":"task-91","Response":"1. DiskPartition\n2. FileSystemObject\n3. Item\n4. FileSystem\n5. Device\n6. Tool\n7. ConfigurationEntry"}
+{"Custom ID":"task-92","Response":"1. PathRelationFacet\n2. Facet\n3. FileSystemFacet\n4. DataRangeFacet\n5. FileFacet\n6. DeviceFacet\n7. AccountFacet"}
+{"Custom ID":"task-93","Response":"1. PhoneAccountFacet\n2. DigitalAccountFacet\n3. Facet\n4. AccountFacet\n5. DigitalAccount\n6. Account\n7. ObservableObject\n8. UcoThing"}
+{"Custom ID":"task-94","Response":"1. PhoneAccountFacet\n2. Facet\n3. DigitalAccountFacet\n4. AccountFacet\n5. MobileAccountFacet\n6. DigitalAccount\n7. Account\n8. MobileAccount"}
+{"Custom ID":"task-95","Response":"1. PhoneAccount\n2. Account\n3. DigitalAccount\n4. MobileAccount\n5. AccountFacet\n6. DigitalAccountFacet\n7. MobileAccountFacet\n8. ObservableObject"}
+{"Custom ID":"task-96","Response":"1. Account\n2. DigitalAccount\n3. ObservableObject\n4. Item\n5. Observable\n6. UcoObject\n7. UcoThing\n8. AccountFacet"}
+{"Custom ID":"task-97","Response":"1. EmailAccount\n2. Account\n3. DigitalAccount\n4. ObservableObject\n5. Item\n6. Observable\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-98","Response":"1. EmailAccount\n2. Account\n3. DigitalAccount\n4. ObservableObject\n5. Item\n6. Observable\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-99","Response":"1. ProvenanceRecord\n2. Item\n3. ObservableObject\n4. UcoObject\n5. UcoThing\n6. DigitalAccount\n7. Account\n8. Observable"}
+{"Custom ID":"task-100","Response":"1. ProvenanceRecord\n2. ConfigurationEntry\n3. Item\n4. ObservableObject\n5. UcoObject\n6. UcoThing\n7. DigitalAccount\n8. Account"}
+{"Custom ID":"task-101","Response":"1. RecoveredObjectFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing\n5. FileFacet\n6. FileSystemFacet\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-102","Response":"1. Relationship\n2. ObservableRelationship\n3. PathRelationFacet\n4. TableRelationFacet\n5. Item\n6. Observable\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-103","Response":"1. Relationship\n2. ObservableRelationship\n3. Item\n4. Observable\n5. TableRelationFacet\n6. PathRelationFacet\n7. DeviceFacet\n8. ApplicationFacet"}
+{"Custom ID":"task-104","Response":"1. SIMCardFacet\n2. Facet\n3. DeviceFacet\n4. MobileAccountFacet\n5. UcoInherentCharacterizationThing\n6. UcoThing\n7. FileSystemFacet\n8. Item"}
+{"Custom ID":"task-105","Response":"1. SIMCardFacet\n2. Facet\n3. Relationship\n4. DeviceFacet\n5. MobileAccountFacet\n6. MobileDeviceFacet\n7. PhoneAccountFacet"}
+{"Custom ID":"task-106","Response":"1. SIMCard\n2. DeviceFacet\n3. MobileDeviceFacet\n4. SIMCardFacet\n5. MobileAccountFacet\n6. AccountFacet\n7. DigitalAccountFacet\n8. UcoInherentCharacterizationThing"}
+{"Custom ID":"task-107","Response":"1. SIMCardFacet\n2. Facet\n3. Relationship\n4. Item\n5. ObservableObject\n6. UcoObject\n7. UcoThing\n8. DeviceFacet"}
+{"Custom ID":"task-108","Response":"1. SimpleNameFacet\n2. Facet\n3. FileFacet\n4. DataRangeFacet\n5. Item\n6. UcoInherentCharacterizationThing\n7. UcoThing"}
+{"Custom ID":"task-109","Response":"1. SimpleNameFacet\n2. Facet\n3. UcoInherentCharacterizationThing\n4. UcoThing\n5. FileFacet\n6. DataRangeFacet\n7. IdentityFacet\n8. ConfigurationEntry"}
+{"Custom ID":"task-110","Response":"1. DigitalAccount\n2. Account\n3. ObservableObject\n4. Item\n5. Observable\n6. UcoObject\n7. UcoThing"}
+{"Custom ID":"task-111","Response":"1. Application\n2. ConfiguredTool\n3. ApplicationFacet\n4. DeviceFacet\n5. MobileAccountFacet\n6. ApplicationFacet\n7. Tool\n8. Software"}
+{"Custom ID":"task-112","Response":"1. Message\n2. SMSMessage\n3. ContentDataFacet\n4. Facet\n5. Item\n6. ObservableObject\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-113","Response":"1. Message\n2. SMSMessage\n3. ContentDataFacet\n4. Item\n5. ObservableObject\n6. UcoObject\n7. UcoThing\n8. DigitalAccount"}
+{"Custom ID":"task-114","Response":"1. Application\n2. Tool\n3. Software\n4. ConfiguredTool\n5. ObservableObject\n6. Item\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-115","Response":"1. TableRelationFacet\n2. Facet\n3. DataRangeFacet\n4. FileFacet\n5. FileSystemFacet\n6. Item\n7. ObservableObject\n8. UcoThing"}
+{"Custom ID":"task-116","Response":"1. TableRelationFacet\n2. Facet\n3. DataRangeFacet\n4. FileSystemFacet\n5. FileFacet\n6. PathRelationFacet\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-117","Response":"1. TableRelationFacet\n2. Facet\n3. DataRangeFacet\n4. FileFacet\n5. FileSystemFacet\n6. PathRelationFacet\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-118","Response":"1. MobileAccount\n2. Account\n3. DigitalAccount\n4. PhoneAccount\n5. MobileDevice\n6. Device\n7. ObservableObject"}
+{"Custom ID":"task-119","Response":"1. Application\n2. ConfiguredTool\n3. ApplicationFacet\n4. Tool\n5. Software\n6. Device\n7. FileSystem\n8. File"}
+{"Custom ID":"task-120","Response":"1. ApplicationFacet\n2. Facet\n3. FileFacet\n4. FileSystemFacet\n5. ContentDataFacet\n6. Application\n7. File\n8. FileSystem"}
+{"Custom ID":"task-121","Response":"1. URL\n2. URLFacet\n3. Facet\n4. ObservableObject\n5. Item\n6. Observable\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-122","Response":"1. URLFacet\n2. Facet\n3. URLHistoryFacet\n4. DataRangeFacet\n5. Item\n6. ObservableObject\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-123","Response":"1. URLHistory\n2. URLHistoryEntry\n3. URLFacet\n4. Facet\n5. Item\n6. ObservableObject\n7. UcoObject\n8. UcoThing"}
+{"Custom ID":"task-124","Response":"1. URLHistoryEntry\n2. URLHistory\n3. ContentDataFacet\n4. Facet\n5. Item\n6. ObservableObject\n7. UcoObject\n8. Observable"}
+{"Custom ID":"task-125","Response":"1. URLHistoryFacet\n2. Facet\n3. URLFacet\n4. DataRangeFacet\n5. FileFacet\n6. FileSystemFacet\n7. Item\n8. ObservableObject"}
+{"Custom ID":"task-126","Response":"1. DiskPartition\n2. FileSystemObject\n3. Item\n4. UcoObject\n5. UcoThing\n6. File\n7. FileSystem\n8. Device"}
+{"Custom ID":"task-127","Response":"1. WifiAddressFacet\n2. Facet\n3. DigitalAccountFacet\n4. AccountFacet\n5. DeviceFacet\n6. MACAddressFacet\n7. DigitalAddressFacet\n8. Address"}

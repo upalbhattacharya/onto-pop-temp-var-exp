@@ -5,3 +5,5 @@
 *.egg-info/
 *.egg
 *.swp
+**/.virtual_documents/
+

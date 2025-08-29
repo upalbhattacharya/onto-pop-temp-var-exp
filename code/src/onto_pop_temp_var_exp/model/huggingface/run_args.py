@@ -31,6 +31,9 @@ class RunArguments(BaseModel):
     temperature: Optional[float] = Field(
         default=None, metadata={"help": "Temperature used for generation"}
     )
+    do_sample: Optional[bool] = Field(
+        default=True, metadata={"help": "Sampling variable"}
+    )
     load_in_8bit: Optional[bool] = Field(
         default=False, metadata={"help": "Load model with 8-bit precision"}
     )

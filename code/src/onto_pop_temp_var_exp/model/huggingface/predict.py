@@ -31,7 +31,7 @@ def predict(model, tokenizer, test_data, run_args, **kwargs) -> pl.DataFrame:
             input_ids,
             max_new_tokens=run_args.max_tokens,
             temperature=run_args.temperature,
-            do_sample=False if run_args.temperature <= 1e-3 else True,
+            do_sample=run_args.do_sample,
         ).cpu()
         response = tokenizer.batch_decode(
             gen_tokens[:, input_ids.shape[1] :], skip_special_tokens=True
